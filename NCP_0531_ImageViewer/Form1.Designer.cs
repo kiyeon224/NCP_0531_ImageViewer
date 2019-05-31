@@ -103,6 +103,7 @@
             this.btnPrev.TabIndex = 2;
             this.btnPrev.Text = "이전";
             this.btnPrev.UseVisualStyleBackColor = true;
+            this.btnPrev.Click += new System.EventHandler(this.BtnPrev_Click);
             // 
             // btnNext
             // 
@@ -112,6 +113,7 @@
             this.btnNext.TabIndex = 3;
             this.btnNext.Text = "다음";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.BtnNext_Click);
             // 
             // lblNum
             // 
@@ -136,6 +138,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "사진첩";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picImg)).EndInit();
             this.ResumeLayout(false);
 
